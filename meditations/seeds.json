@@ -1,0 +1,119 @@
+[
+{
+  "model": "meditations.meditation",
+  "pk": 2,
+  "fields": {
+    "name": "5-Minute Breathing",
+    "description": "From the Mindful Awareness Research Center, UCLA",
+    "audio": "https://res.cloudinary.com/dvgbdioec/video/upload/v1638883957/LifeHappens5MinuteBreathing_wf1qop.mp3",
+    "category": "Breath",
+    "minutes": 5,
+    "sessions": 1,
+    "created_at": "2021-12-07T13:50:07.960Z"
+  }
+},
+{
+  "model": "meditations.meditation",
+  "pk": 3,
+  "fields": {
+    "name": "15 Minute Body Scan",
+    "description": "Recorded by Vidyamala Burch, Breathworks.",
+    "audio": "https://res.cloudinary.com/dvgbdioec/video/upload/v1638884010/BreathworksBodyScan_w9ixlo.mp3",
+    "category": "Body Scan",
+    "minutes": 15,
+    "sessions": 1,
+    "created_at": "2021-12-07T13:50:07.960Z"
+  }
+},
+{
+  "model": "meditations.meditation",
+  "pk": 4,
+  "fields": {
+    "name": "10-Minute Mindfulness",
+    "description": "NY Times mindfulness meditation.",
+    "audio": "https://res.cloudinary.com/dvgbdioec/video/upload/v1638883933/PadraigTenMinuteMindfulnessOfBreathing_kq7mdr.mp3",
+    "category": "Mindfulness",
+    "minutes": 10,
+    "sessions": 1,
+    "created_at": "2021-12-07T13:50:07.960Z"
+  }
+},
+{
+  "model": "meditations.meditation",
+  "pk": 5,
+  "fields": {
+    "name": "10-Minute Anapana Meditation",
+    "description": "An introductory session by Mr. S.N. Goenka",
+    "audio": "https://res.cloudinary.com/dvgbdioec/video/upload/v1638882360/Practice_English_Mini-Anapana_Various_nfsdiv.mp3",
+    "category": "Vipassana",
+    "minutes": 10,
+    "sessions": 1,
+    "created_at": "2021-12-07T13:50:07.960Z"
+  }
+},
+{
+  "model": "meditations.meditation",
+  "pk": 9,
+  "fields": {
+    "name": "3-Minute Breathing",
+    "description": "Peter Morgan",
+    "audio": "https://res.cloudinary.com/dvgbdioec/video/upload/v1638883978/FreeMindfulness3MinuteBreathing_sab8oa.mp3",
+    "category": "Breath",
+    "minutes": 3,
+    "sessions": 1,
+    "created_at": "2021-12-07T13:50:07.960Z"
+  }
+},
+{
+  "model": "meditations.meditation",
+  "pk": 12,
+  "fields": {
+    "name": "13-Minute Sleep Meditation",
+    "description": "Published by the UCLA.",
+    "audio": "https://res.cloudinary.com/dvgbdioec/video/upload/v1638887509/Body-Scan-for-Sleep_ng7sxg.mp3",
+    "category": "Sleep",
+    "minutes": 13,
+    "sessions": 1,
+    "created_at": "2021-12-07T14:32:59.912Z"
+  }
+},
+{
+  "model": "meditations.meditation",
+  "pk": 13,
+  "fields": {
+    "name": "21-Minute Meditation for Mental Peace",
+    "description": "This  21 minutes guided meditation for Cultivating Mental Peace will give you a break from the chaos in your mind by teaching your brain how to relax so you can feel peace and calm *more* of the time.",
+    "audio": "https://res.cloudinary.com/dvgbdioec/video/upload/v1639066714/21_Minutes_Meditation_for_Mental_Peace_fslrtv.mp3",
+    "category": "Mindfulness",
+    "minutes": 21,
+    "sessions": 1,
+    "created_at": "2021-12-09T16:19:00.083Z"
+  }
+},
+{
+  "model": "meditations.meditation",
+  "pk": 14,
+  "fields": {
+    "name": "9-Minute Mindfulness Meditation",
+    "description": "Waking Up with Sam Harris",
+    "audio": "https://res.cloudinary.com/dvgbdioec/video/upload/v1639067213/Waking_Up_with_Sam_Harris_-_Mindfulness_Meditation_9_minutes_penlxt.mp3",
+    "category": "Mindfulness",
+    "minutes": 9,
+    "sessions": 1,
+    "created_at": "2021-12-09T16:27:35.615Z"
+  }
+},
+{
+  "model": "meditations.meditation",
+  "pk": 15,
+  "fields": {
+    "name": "10-Minute Breathing Meditation",
+    "description": "Shift into a peaceful state with just you and your breath.",
+    "audio": "https://res.cloudinary.com/dvgbdioec/video/upload/v1640604133/10_Minute_Guided_Breathing_Meditation_rkdhwd.mp3",
+    "category": "Breath",
+    "minutes": 10,
+    "sessions": 1,
+    "created_at": "2021-12-27T11:23:33.270Z"
+  }
+}
+]

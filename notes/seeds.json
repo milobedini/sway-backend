@@ -1,0 +1,29 @@
+[
+{
+  "model": "notes.note",
+  "pk": 12,
+  "fields": {
+    "date": "2021-12-08",
+    "text": "Test 2 note incoming.",
+    "owner": 13
+  }
+},
+{
+  "model": "notes.note",
+  "pk": 13,
+  "fields": {
+    "date": "2021-12-08",
+    "text": "Next Retreat Options\n\n- Rishikesh\n\n- Guatemala\n\n- Kent?",
+    "owner": 1
+  }
+},
+{
+  "model": "notes.note",
+  "pk": 30,
+  "fields": {
+    "date": "2021-12-08",
+    "text": "This is a note to myself to make a note to myself.",
+    "owner": 1
+  }
+}
+]

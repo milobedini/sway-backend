@@ -1,0 +1,230 @@
+[
+{
+  "model": "jwt_auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$lJwJKhSXiVz9N7oazAQ8v8$umnfqGivydjXNoaRr4GyZuMDDMfzZW3M/l2Nlmlffr0=",
+    "last_login": "2021-12-27T11:15:22.872Z",
+    "is_superuser": true,
+    "username": "Sway",
+    "first_name": "Milo",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-12-01T16:00:56Z",
+    "email": "admin@admin.com",
+    "sessions": 35,
+    "minutes": 354,
+    "groups": [],
+    "user_permissions": [],
+    "favourites": [
+      13,
+      15,
+      9,
+      14,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "test",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "test",
+    "first_name": "test",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-02T11:52:02Z",
+    "email": "test@test.com",
+    "sessions": 0,
+    "minutes": 0,
+    "groups": [],
+    "user_permissions": [],
+    "favourites": [
+      9
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$fJ1H6qR0RvuMdNouv45XZA$sIjDm3uslh+5RUMm3iE0nwmgz1xwv2XPK5g2XJULYLI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "milo",
+    "first_name": "Milo",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-02T15:02:31Z",
+    "email": "milo@milo.com",
+    "sessions": 0,
+    "minutes": 0,
+    "groups": [],
+    "user_permissions": [],
+    "favourites": [
+      3,
+      9,
+      5
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$6ofjnUkXjLb1AOdzq4cUaG$XwCMFpGoHKaQmmLCA//QJV2WTByHSmk91H0VjZ1p9ro=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "test2",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-03T10:01:44.786Z",
+    "email": "test2@test.com",
+    "sessions": 2,
+    "minutes": 25,
+    "groups": [],
+    "user_permissions": [],
+    "favourites": [
+      2
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$mYU627XPw7joCWPV8NY5yX$fwiVWy8+LGeJJ+zuEtBqpm690T1pdGZap0QNPcZ2OAA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Milosh",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-06T17:22:52.500Z",
+    "email": "milosh@milosh.com",
+    "sessions": 0,
+    "minutes": 0,
+    "groups": [],
+    "user_permissions": [],
+    "favourites": [
+      9,
+      5,
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "quesogrande",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ElQuesoGrande",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-09T15:40:16Z",
+    "email": "queso@queso.com",
+    "sessions": 2,
+    "minutes": 23,
+    "groups": [],
+    "user_permissions": [],
+    "favourites": [
+      3,
+      9,
+      2
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "guru123",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Emile",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-09T15:41:15Z",
+    "email": "guru@emile.com",
+    "sessions": 28,
+    "minutes": 312,
+    "groups": [],
+    "user_permissions": [],
+    "favourites": [
+      4,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "chamberlain",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "chamez",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-09T15:41:58Z",
+    "email": "chamez@chamez.com",
+    "sessions": 3,
+    "minutes": 35,
+    "groups": [],
+    "user_permissions": [],
+    "favourites": [
+      2,
+      12
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "jamesrogers",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "JamesR",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-09T15:42:29Z",
+    "email": "james@rogers.com",
+    "sessions": 10,
+    "minutes": 97,
+    "groups": [],
+    "user_permissions": [],
+    "favourites": [
+      3,
+      4,
+      9,
+      2,
+      12,
+      5
+    ]
+  }
+}
+]
