@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 import django_heroku
+import json
+
 
 from pathlib import Path
 
@@ -23,6 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-g#4s1q0$_&r$^8p9b+&0mr29733md!u^mdvmgmh+2jj@$^ga3h'
+
+with open("secrets.json") as f:
+    secrets = json.loads(f.read())
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -85,6 +90,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'sway',
+        'USER': secrets["POSTGRES_USER"],
+        'PASSWORD': secrets["POSTGRES_PASSWORD"],
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 
