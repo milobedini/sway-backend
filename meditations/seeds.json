@@ -9,7 +9,8 @@
     "category": "Breath",
     "minutes": 5,
     "sessions": 1,
-    "created_at": "2021-12-07T13:50:07.960Z"
+    "created_at": "2021-12-07T13:50:07.960Z",
+    "views": 2
   }
 },
 {
@@ -22,7 +23,8 @@
     "category": "Body Scan",
     "minutes": 15,
     "sessions": 1,
-    "created_at": "2021-12-07T13:50:07.960Z"
+    "created_at": "2021-12-07T13:50:07.960Z",
+    "views": 1
   }
 },
 {
@@ -35,7 +37,8 @@
     "category": "Mindfulness",
     "minutes": 10,
     "sessions": 1,
-    "created_at": "2021-12-07T13:50:07.960Z"
+    "created_at": "2021-12-07T13:50:07.960Z",
+    "views": 1
   }
 },
 {
@@ -48,7 +51,8 @@
     "category": "Vipassana",
     "minutes": 10,
     "sessions": 1,
-    "created_at": "2021-12-07T13:50:07.960Z"
+    "created_at": "2021-12-07T13:50:07.960Z",
+    "views": 2
   }
 },
 {
@@ -61,7 +65,8 @@
     "category": "Breath",
     "minutes": 3,
     "sessions": 1,
-    "created_at": "2021-12-07T13:50:07.960Z"
+    "created_at": "2021-12-07T13:50:07.960Z",
+    "views": 6
   }
 },
 {
@@ -74,7 +79,8 @@
     "category": "Sleep",
     "minutes": 13,
     "sessions": 1,
-    "created_at": "2021-12-07T14:32:59.912Z"
+    "created_at": "2021-12-07T14:32:59.912Z",
+    "views": 2
   }
 },
 {
@@ -87,7 +93,8 @@
     "category": "Mindfulness",
     "minutes": 21,
     "sessions": 1,
-    "created_at": "2021-12-09T16:19:00.083Z"
+    "created_at": "2021-12-09T16:19:00.083Z",
+    "views": 14
   }
 },
 {
@@ -100,7 +107,8 @@
     "category": "Mindfulness",
     "minutes": 9,
     "sessions": 1,
-    "created_at": "2021-12-09T16:27:35.615Z"
+    "created_at": "2021-12-09T16:27:35.615Z",
+    "views": 4
   }
 },
 {
@@ -113,7 +121,22 @@
     "category": "Breath",
     "minutes": 10,
     "sessions": 1,
-    "created_at": "2021-12-27T11:23:33.270Z"
+    "created_at": "2021-12-27T11:23:33.270Z",
+    "views": 16
+  }
+},
+{
+  "model": "meditations.meditation",
+  "pk": 16,
+  "fields": {
+    "name": "Daily Calm | Be Present",
+    "description": "From Calm. Tamara Levitt guides this 10 minute Daily Calm mindfulness meditation to powerfully restore and re-connect with the present.",
+    "audio": "https://res.cloudinary.com/dvgbdioec/video/upload/v1674568609/Y2Mate.is_-_Daily_Calm_10_Minute_Mindfulness_Meditation_Be_Present-ZToicYcHIOU-160k-1654308113913_kkytuz.mp3",
+    "category": "Mindfulness",
+    "minutes": 10,
+    "sessions": 1,
+    "created_at": "2023-01-24T13:58:37.849Z",
+    "views": 29
   }
 }
 ]
