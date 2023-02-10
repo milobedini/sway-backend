@@ -10,7 +10,7 @@
     "minutes": 5,
     "sessions": 1,
     "created_at": "2021-12-07T13:50:07.960Z",
-    "views": 2
+    "views": 3
   }
 },
 {
@@ -52,7 +52,7 @@
     "minutes": 10,
     "sessions": 1,
     "created_at": "2021-12-07T13:50:07.960Z",
-    "views": 2
+    "views": 5
   }
 },
 {
@@ -66,7 +66,7 @@
     "minutes": 3,
     "sessions": 1,
     "created_at": "2021-12-07T13:50:07.960Z",
-    "views": 6
+    "views": 12
   }
 },
 {
@@ -80,7 +80,7 @@
     "minutes": 13,
     "sessions": 1,
     "created_at": "2021-12-07T14:32:59.912Z",
-    "views": 2
+    "views": 4
   }
 },
 {
@@ -94,7 +94,7 @@
     "minutes": 21,
     "sessions": 1,
     "created_at": "2021-12-09T16:19:00.083Z",
-    "views": 14
+    "views": 18
   }
 },
 {
@@ -108,7 +108,7 @@
     "minutes": 9,
     "sessions": 1,
     "created_at": "2021-12-09T16:27:35.615Z",
-    "views": 4
+    "views": 8
   }
 },
 {
@@ -122,7 +122,7 @@
     "minutes": 10,
     "sessions": 1,
     "created_at": "2021-12-27T11:23:33.270Z",
-    "views": 16
+    "views": 21
   }
 },
 {
@@ -136,7 +136,7 @@
     "minutes": 10,
     "sessions": 1,
     "created_at": "2023-01-24T13:58:37.849Z",
-    "views": 29
+    "views": 44
   }
 }
 ]

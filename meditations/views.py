@@ -43,13 +43,17 @@ class MeditationDetailView(APIView):
             print(request.data)
         except Meditation.DoesNotExist:
             raise NotFound(detail="Meditation not found")
-        serialized_med = FavouriteMeditationSerializer(
-            med_to_fav, data=request.data)
-        if serialized_med.is_valid():
-            serialized_med.save()
-            return Response(serialized_med.data, status=status.HTTP_201_CREATED)
-        else:
-            return Response(serialized_med.errors, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
+
+        current_user = request.user
+        # print(current_user.id)
+        if current_user in med_to_fav.favourited_by.all():
+            med_to_fav.favourited_by.remove(current_user.id)
+            print("UNLIKING")
+            return Response(status=status.HTTP_201_CREATED)
+        med_to_fav.favourited_by.add(current_user.id)
+        print("LIKING")
+        med_to_fav.save()
+        return Response(status=status.HTTP_201_CREATED)
 
 
 class LatestMeditationView(APIView):

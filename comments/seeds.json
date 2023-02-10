@@ -108,5 +108,15 @@
     "article": 26,
     "owner": 1
   }
+},
+{
+  "model": "comments.comment",
+  "pk": 80,
+  "fields": {
+    "text": "Spain?",
+    "created_at": "2023-02-10T12:47:10.558Z",
+    "article": 17,
+    "owner": 1
+  }
 }
 ]
