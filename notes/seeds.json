@@ -28,82 +28,10 @@
 },
 {
   "model": "notes.note",
-  "pk": 71,
+  "pk": 82,
   "fields": {
-    "date": "2023-01-25",
-    "text": "Asdsa",
-    "owner": 1
-  }
-},
-{
-  "model": "notes.note",
-  "pk": 72,
-  "fields": {
-    "date": "2023-01-25",
-    "text": "Asdasdsa",
-    "owner": 1
-  }
-},
-{
-  "model": "notes.note",
-  "pk": 73,
-  "fields": {
-    "date": "2023-01-25",
-    "text": "Sadsadas",
-    "owner": 1
-  }
-},
-{
-  "model": "notes.note",
-  "pk": 74,
-  "fields": {
-    "date": "2023-01-25",
-    "text": "Adasdxa",
-    "owner": 1
-  }
-},
-{
-  "model": "notes.note",
-  "pk": 77,
-  "fields": {
-    "date": "2023-01-25",
-    "text": "Asdsaxa",
-    "owner": 1
-  }
-},
-{
-  "model": "notes.note",
-  "pk": 78,
-  "fields": {
-    "date": "2023-01-25",
-    "text": "Dsadsadas",
-    "owner": 1
-  }
-},
-{
-  "model": "notes.note",
-  "pk": 79,
-  "fields": {
-    "date": "2023-01-25",
-    "text": "Dsaasxsa",
-    "owner": 1
-  }
-},
-{
-  "model": "notes.note",
-  "pk": 80,
-  "fields": {
-    "date": "2023-01-25",
-    "text": "Dsasaxas",
-    "owner": 1
-  }
-},
-{
-  "model": "notes.note",
-  "pk": 81,
-  "fields": {
-    "date": "2023-01-25",
-    "text": "As",
+    "date": "2023-02-14",
+    "text": "Daily Plan\n1. Wake & Walk @ 8am\n2. Meditate\n3. Work\n4. Lunch & Chill\n5. Work\n6. Exercise (run, gym or walk) @ 3ish\n7. Work\n8. Yoga @ 5:30ish\n9. Finish evening by journaling.",
     "owner": 1
   }
 }
