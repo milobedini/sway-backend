@@ -8,7 +8,7 @@ class Article(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length=200)
     views = models.IntegerField(default=0)
-    text = models.TextField(default='')
+    text = models.TextField(default='', null=True, blank=True)
     category = models.CharField(max_length=30, default="Threads")
     photo = models.CharField(max_length=200, default='')
     author = models.ForeignKey(
