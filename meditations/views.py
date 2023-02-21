@@ -4,7 +4,7 @@ from rest_framework.views import APIView
 from rest_framework.views import Response
 from rest_framework.views import status
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
-from django.db.models import F
+from django.db.models import F, Q
 
 
 from .models import Meditation
@@ -19,6 +19,26 @@ class MeditationListView(APIView):
 
     def get(self, request):
         meditations = Meditation.objects.order_by('-created_at').all()
+
+        serialized_meditations = PopulatedMeditationSerializer(
+            meditations, many=True)
+        return Response(serialized_meditations.data, status=status.HTTP_200_OK)
+
+
+class MeditationSearchView(APIView):
+    permission_classes = (IsAuthenticatedOrReadOnly,)
+
+    def get(self, request):
+        query = request.GET.get('q')
+        print(query)
+        if not query:
+            return Response(status=status.HTTP_400_BAD_REQUEST)
+
+        meditations = Meditation.objects.filter(
+            Q(name__icontains=query) |
+            Q(description__icontains=query) |
+            Q(category__icontains=query)
+        ).order_by('-created_at')
 
         serialized_meditations = PopulatedMeditationSerializer(
             meditations, many=True)
