@@ -13,11 +13,11 @@
       "is_active": true,
       "date_joined": "2021-12-01T16:00:56Z",
       "email": "admin@admin.com",
-      "sessions": 41,
-      "minutes": 71,
+      "sessions": 45,
+      "minutes": 97,
       "groups": [],
       "user_permissions": [],
-      "favourites": [16, 15, 13, 14]
+      "favourites": [15, 13, 16, 5, 14]
     }
   },
   {
@@ -59,7 +59,7 @@
       "minutes": 0,
       "groups": [],
       "user_permissions": [],
-      "favourites": [9, 5, 3]
+      "favourites": [3, 9, 5]
     }
   },
   {
@@ -101,7 +101,7 @@
       "minutes": 0,
       "groups": [],
       "user_permissions": [],
-      "favourites": [9, 2, 5, 4, 3]
+      "favourites": [2, 4, 3, 9, 5]
     }
   },
   {
@@ -122,7 +122,7 @@
       "minutes": 23,
       "groups": [],
       "user_permissions": [],
-      "favourites": [9, 2, 3]
+      "favourites": [2, 3, 9]
     }
   },
   {
@@ -143,7 +143,7 @@
       "minutes": 312,
       "groups": [],
       "user_permissions": [],
-      "favourites": [5, 4, 12]
+      "favourites": [12, 4, 5]
     }
   },
   {
@@ -223,6 +223,27 @@
       "is_active": true,
       "date_joined": "2023-02-15T17:42:06.104Z",
       "email": "milose986@gmail.com",
+      "sessions": 0,
+      "minutes": 0,
+      "groups": [],
+      "user_permissions": [],
+      "favourites": []
+    }
+  },
+  {
+    "model": "jwt_auth.user",
+    "pk": 33,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$zLwXGKAMkug8WKzuWjV6Gc$7Xd8BOocHRkkBD+0SQ0vkNGZ0zsFjWrWWxjm8JAzM1c=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Ragniblov",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-02-23T13:07:39.310Z",
+      "email": "ragniblov@gmail.com",
       "sessions": 0,
       "minutes": 0,
       "groups": [],
