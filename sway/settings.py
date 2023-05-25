@@ -51,7 +51,12 @@ INSTALLED_APPS = [
     'meditations',
     'notes',
     'rest_framework',
+    'graphene_django'
 ]
+
+GRAPHENE = {
+    'SCHEMA': 'sway.schema.schema'
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

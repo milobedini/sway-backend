@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include, re_path
 from .views import index
+from graphene_django.views import GraphQLView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,5 +25,6 @@ urlpatterns = [
     path('api/meditations/', include('meditations.urls')),
     path('api/notes/', include('notes.urls')),
     path('api/auth/', include('jwt_auth.urls')),
-    re_path(r'^.*$', index)
+    path('api/graphql/', GraphQLView.as_view(graphiql=True)),
+    re_path(r'^.*$', index),
 ]
